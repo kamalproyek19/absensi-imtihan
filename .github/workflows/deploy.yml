@@ -14,7 +14,6 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout
     uses: actions/checkout@v4
@@ -34,13 +33,11 @@ steps:
     uses: actions/upload-pages-artifact@v3
     with:
       path: ./dist
-```
 
 deploy:
 needs: build
 runs-on: ubuntu-latest
 
-```
 permissions:
   pages: write
   id-token: write
@@ -52,4 +49,3 @@ steps:
   - name: Deploy to GitHub Pages
     id: deployment
     uses: actions/deploy-pages@v4
-```
