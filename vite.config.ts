@@ -4,7 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/absensi-imtihan/',
+  base: '/absensiimtihan/',
 
   plugins: [
     react(),
