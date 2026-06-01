@@ -157,7 +157,7 @@ export default function App() {
           const result = await response.json();
           if (result && result.status === "success" && Array.isArray(result.data)) {
             setStudents(result.data);
-            addToast("success", "Sore! Sinkronisasi data Google Sheets berhasil dilakukan.");
+            addToast("success", "Sinkronisasi data Google Sheets berhasil dilakukan.");
             setIsLoading(false);
             return;
           }
