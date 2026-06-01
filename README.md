@@ -315,7 +315,7 @@ public/logo.png
 Default:
 
 ```text
-Bismillah
+admin123
 ```
 
 Lokasi:
@@ -327,7 +327,7 @@ src/App.tsx
 Cari:
 
 ```javascript
-if (passwordInput === "Bismillah")
+if (passwordInput === "admin123")
 ```
 
 Ganti sesuai kebutuhan.
