@@ -38,7 +38,7 @@ const DEFAULT_CONFIG: AppConfig = {
   spreadsheetId: "",
   apiKey: "",
   sheetName: "Data",
-  webAppUrl: "",
+  webAppUrl: "https://script.google.com/macros/s/AKfycbxgAwNj17wnFJjMJIW0TYM4etmGz8Y6jXRD2A1LBoe-3VJ4nNiqN7Dx-DGYvxO_LkIF/exec",
   mode: "demo",
 };
 
